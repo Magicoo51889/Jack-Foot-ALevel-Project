@@ -16,7 +16,9 @@
 
 **‌Slota, S. (2013). **_**Well-Designed Video Games Can Enhance Problem-Solving Skills and Make Learning More Effective**_**. \[online] Well-Designed Video Games Can Enhance Problem-Solving Skills and Make Learning More Effective. Available at:** [**https://education.uconn.edu/2013/05/29/well-designed-video-games-can-enhance-problem-solving-skills-and-make-learning-more-effective/#**](https://education.uconn.edu/2013/05/29/well-designed-video-games-can-enhance-problem-solving-skills-and-make-learning-more-effective/#) **\[Accessed 17 Mar. 2022].**
 
-**‌**
+**‌Barrus, J (2022). **_**Report: Benefits of Video Games in K-12 Education**_**. \[online] Entertainment Software Association. Available at:** [**https://www.theesa.com/resource/report-benefits-of-video-games-in-k-12-education/**](https://www.theesa.com/resource/report-benefits-of-video-games-in-k-12-education/) **\[Accessed 18 Mar. 2022].**
+
+‌
 
 **‌**
 
