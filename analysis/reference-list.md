@@ -12,10 +12,18 @@
 
 **‌Baxter, M. (2011). Brain Health and Online Gaming. **_**Generations: Journal of the American Society on Aging**_**, \[online] 35(2), pp.107–109. Available at:** [**https://www.jstor.org/stable/26555782**](https://www.jstor.org/stable/26555782) **\[Accessed 21 Mar. 2022].**
 
-‌
+**Green, C.S. and Bavelier, D. (2007). Action-Video-Game Experience Alters the Spatial Resolution of Vision. **_**Psychological Science**_**, \[online] 18(1), pp.88–94. Available at:** [**https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2896830/**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2896830/) **\[Accessed 17 Mar. 2022].**
 
-‌
+**‌Slota, S. (2013). **_**Well-Designed Video Games Can Enhance Problem-Solving Skills and Make Learning More Effective**_**. \[online] Well-Designed Video Games Can Enhance Problem-Solving Skills and Make Learning More Effective. Available at:** [**https://education.uconn.edu/2013/05/29/well-designed-video-games-can-enhance-problem-solving-skills-and-make-learning-more-effective/#**](https://education.uconn.edu/2013/05/29/well-designed-video-games-can-enhance-problem-solving-skills-and-make-learning-more-effective/#) **\[Accessed 17 Mar. 2022].**
 
-‌
+**‌**
 
-‌
+**‌**
+
+**‌**
+
+**‌**
+
+**‌**
+
+**‌**
