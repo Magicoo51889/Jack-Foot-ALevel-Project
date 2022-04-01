@@ -18,6 +18,8 @@
 
 **‌Barrus, J (2022). **_**Report: Benefits of Video Games in K-12 Education**_**. \[online] Entertainment Software Association. Available at:** [**https://www.theesa.com/resource/report-benefits-of-video-games-in-k-12-education/**](https://www.theesa.com/resource/report-benefits-of-video-games-in-k-12-education/) **\[Accessed 18 Mar. 2022].**
 
+‌**PEGI (2017). **_**What do the labels mean? | Pegi Public Site**_**. \[online] Pegi.info. Available at:** [**https://pegi.info/what-do-the-labels-mean**](https://pegi.info/what-do-the-labels-mean) **\[Accessed 1 Apr. 2022].**
+
 ‌
 
 **‌**
