@@ -20,6 +20,10 @@
 
 ‌**PEGI (2017). **_**What do the labels mean? | Pegi Public Site**_**. \[online] Pegi.info. Available at:** [**https://pegi.info/what-do-the-labels-mean**](https://pegi.info/what-do-the-labels-mean) **\[Accessed 1 Apr. 2022].**
 
+**Kumar, J., Herger, M. and Friis Dam, R. (2020). **_**Bartle’s Player Types for Gamification**_**. \[online] The Interaction Design Foundation. Available at:** [**https://www.interaction-design.org/literature/article/bartle-s-player-types-for-gamification**](https://www.interaction-design.org/literature/article/bartle-s-player-types-for-gamification) **\[Accessed 21 Mar. 2022].**
+
+‌
+
 ‌
 
 **‌**
