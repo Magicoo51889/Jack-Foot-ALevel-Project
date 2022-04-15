@@ -1,6 +1,6 @@
 # controls.ts
 
-```
+```typescript
 // Called every frame to check if keys are pressed
 
 export function handleUsersInput(game: any, scale: number){

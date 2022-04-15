@@ -40,6 +40,7 @@
 * [src](code/src/README.md)
   * [pages](code/src/pages/README.md)
     * [levels](code/src/pages/levels.md)
+    * [level1.ts](code/src/pages/level1.ts.md)
     * [menus](code/src/pages/menus/README.md)
       * [main-menu.ts](code/src/pages/menus/main-menu.ts.md)
   * [components](code/src/components/README.md)
