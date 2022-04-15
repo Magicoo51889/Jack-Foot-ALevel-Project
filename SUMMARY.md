@@ -32,6 +32,11 @@
 
 ## Code
 
+* [public](code/public/README.md)
+  * [index.html](code/public/index.html.md)
+  * [assets](code/public/assets/README.md)
+    * [sky.png](code/public/assets/sky.png.md)
+    * [platform.png](code/public/assets/platform.png.md)
 * [src](code/src/README.md)
   * [pages](code/src/pages/README.md)
     * [levels](code/src/pages/levels.md)
