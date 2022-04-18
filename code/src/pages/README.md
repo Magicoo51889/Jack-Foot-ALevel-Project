@@ -1,7 +1,7 @@
 # pages
 
-{% content-ref url="levels.md" %}
-[levels.md](levels.md)
+{% content-ref url="levels/" %}
+[levels](levels/)
 {% endcontent-ref %}
 
 {% content-ref url="menus/" %}
