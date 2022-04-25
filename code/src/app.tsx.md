@@ -1,20 +1,29 @@
 # App.tsx
 
 ```tsx
-import React from "react"
+import Phaser from 'phaser';
 
-class App extends React.Component{
-    render(){
-        return(
-            <div>
-                {/*<h1>My A Level Project</h1>*/}
-                <div id="game">
-                    <div id="game1"></div>
-                </div>
-            </div>
-        )
-    }
-}
+import TestScene from './scenes/PlayScene';
 
-export default App
+const config:GameConfig = {
+    type: Phaser.AUTO,
+    parent: 'content',
+    width: innerWidth,
+    height: innerHeight,
+    resolution: 1, 
+    backgroundColor: "#EDEEC9",
+    physics: {
+      default: "matter",
+      matter: {
+        gravity: {y: 9.81},
+        debug: false
+      }
+    },
+    scene: [
+      TestScene
+    ]
+};
+
+new Phaser.Game(config);
+
 ```

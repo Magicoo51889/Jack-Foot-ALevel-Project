@@ -32,11 +32,11 @@
 
 ## Code
 
-* [public](code/public/README.md)
-  * [index.html](code/public/index.html.md)
-  * [assets](code/public/assets/README.md)
-    * [sky.png](code/public/assets/sky.png.md)
-    * [platform.png](code/public/assets/platform.png.md)
+* [assets](code/assets/README.md)
+  * [sprites](code/assets/sprites/README.md)
+    * [SpaceShip.png](code/assets/sprites/spaceship.png.md)
+    * [sky.png](code/assets/sprites/sky.png.md)
+    * [platform.png](code/assets/sprites/platform.png.md)
 * [src](code/src/README.md)
   * [pages](code/src/pages/README.md)
     * [levels](code/src/pages/levels/README.md)
@@ -44,7 +44,8 @@
     * [menus](code/src/pages/menus/README.md)
       * [main-menu.ts](code/src/pages/menus/main-menu.ts.md)
   * [components](code/src/components/README.md)
-    * [components.ts](code/src/components/components.ts.md)
-    * [controls.ts](code/src/components/controls.ts.md)
+    * [controls](code/src/components/controls/README.md)
+      * [components.ts](code/src/components/controls/components.ts.md)
+      * [controls.ts](code/src/components/controls/controls.ts.md)
   * [App.tsx](code/src/app.tsx.md)
-  * [index.tsx](code/src/index.tsx.md)
+  * [index.html](code/src/index.html.md)
