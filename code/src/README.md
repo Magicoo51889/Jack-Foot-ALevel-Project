@@ -12,6 +12,6 @@
 [app.tsx.md](app.tsx.md)
 {% endcontent-ref %}
 
-{% content-ref url="index.html.md" %}
-[index.html.md](index.html.md)
+{% content-ref url="index.tsx.md" %}
+[index.tsx.md](index.tsx.md)
 {% endcontent-ref %}

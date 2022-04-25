@@ -17,6 +17,7 @@
 
 * [2.1 Design Frame](2-design-and-development/systems-diagram.md)
 * [2.2.1 Cycle 1](2-design-and-development/cycle-1.md)
+* [2.2.2 Cycle 2](design-and-development/2.2.2-cycle-2.md)
 
 ## 3 Testing <a href="#testing" id="testing"></a>
 
@@ -32,11 +33,11 @@
 
 ## Code
 
-* [assets](code/assets/README.md)
+* [assets](code/public/assets/README.md)
   * [sprites](code/assets/sprites/README.md)
     * [SpaceShip.png](code/assets/sprites/spaceship.png.md)
-    * [sky.png](code/assets/sprites/sky.png.md)
-    * [platform.png](code/assets/sprites/platform.png.md)
+    * [sky.png](code/public/assets/sky.png.md)
+    * [platform.png](code/public/assets/platform.png.md)
 * [src](code/src/README.md)
   * [pages](code/src/pages/README.md)
     * [levels](code/src/pages/levels/README.md)
@@ -45,7 +46,7 @@
       * [main-menu.ts](code/src/pages/menus/main-menu.ts.md)
   * [components](code/src/components/README.md)
     * [controls](code/src/components/controls/README.md)
-      * [components.ts](code/src/components/controls/components.ts.md)
-      * [controls.ts](code/src/components/controls/controls.ts.md)
+      * [components.ts](code/src/components/components.ts.md)
+      * [controls.ts](code/src/components/controls.ts.md)
   * [App.tsx](code/src/app.tsx.md)
-  * [index.html](code/src/index.html.md)
+  * [index.html](code/src/index.tsx.md)
