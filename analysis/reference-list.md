@@ -14,13 +14,17 @@
 
 **Green, C.S. and Bavelier, D. (2007). Action-Video-Game Experience Alters the Spatial Resolution of Vision. **_**Psychological Science**_**, \[online] 18(1), pp.88–94. Available at:** [**https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2896830/**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2896830/) **\[Accessed 17 Mar. 2022].**
 
-**‌Slota, S. (2013). **_**Well-Designed Video Games Can Enhance Problem-Solving Skills and Make Learning More Effective**_**. \[online] Well-Designed Video Games Can Enhance Problem-Solving Skills and Make Learning More Effective. Available at:** [**https://education.uconn.edu/2013/05/29/well-designed-video-games-can-enhance-problem-solving-skills-and-make-learning-more-effective/#**](https://education.uconn.edu/2013/05/29/well-designed-video-games-can-enhance-problem-solving-skills-and-make-learning-more-effective/#) **\[Accessed 17 Mar. 2022].**
+**‌Slota, S. (2013). **_**Well-Designed Video Games Can Enhance Problem-Solving Skills and Make Learning More Effective**_**. \[online] Well-Designed Video Games Can Enhance Problem-Solving Skills and Make Learning More Effective. Available at:** [**https://education.uconn.edu/2013/05/29/well-designed-video-games-can-enhance-problem-solving-skills-and-make-learning-more-effective/#**](https://education.uconn.edu/2013/05/29/well-designed-video-games-can-enhance-problem-solving-skills-and-make-learning-more-effective/) **\[Accessed 17 Mar. 2022].**
 
 **‌Barrus, J (2022). **_**Report: Benefits of Video Games in K-12 Education**_**. \[online] Entertainment Software Association. Available at:** [**https://www.theesa.com/resource/report-benefits-of-video-games-in-k-12-education/**](https://www.theesa.com/resource/report-benefits-of-video-games-in-k-12-education/) **\[Accessed 18 Mar. 2022].**
 
 ‌**PEGI (2017). **_**What do the labels mean? | Pegi Public Site**_**. \[online] Pegi.info. Available at:** [**https://pegi.info/what-do-the-labels-mean**](https://pegi.info/what-do-the-labels-mean) **\[Accessed 1 Apr. 2022].**
 
 **Kumar, J., Herger, M. and Friis Dam, R. (2020). **_**Bartle’s Player Types for Gamification**_**. \[online] The Interaction Design Foundation. Available at:** [**https://www.interaction-design.org/literature/article/bartle-s-player-types-for-gamification**](https://www.interaction-design.org/literature/article/bartle-s-player-types-for-gamification) **\[Accessed 21 Mar. 2022].**
+
+**Microsoft (2021). Requirements for Visual Studio Code. \[online] code.visualstudio.com. Available at:** [**https://code.visualstudio.com/docs/supporting/requirements**](https://code.visualstudio.com/docs/supporting/requirements)****
+
+#### **Cloud 66 (n.d.). Recommended minimum server sizes • Node. \[online] help.cloud66.com. Available at:** [**https://help.cloud66.com/node/references/non-recommended-server-sizes.html#:\~:text=We%20recommend%20the%20following%20minimum**](https://help.cloud66.com/node/references/non-recommended-server-sizes.html)
 
 ‌
 
