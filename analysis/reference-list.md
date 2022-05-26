@@ -22,20 +22,10 @@
 
 **Kumar, J., Herger, M. and Friis Dam, R. (2020). **_**Bartle’s Player Types for Gamification**_**. \[online] The Interaction Design Foundation. Available at:** [**https://www.interaction-design.org/literature/article/bartle-s-player-types-for-gamification**](https://www.interaction-design.org/literature/article/bartle-s-player-types-for-gamification) **\[Accessed 21 Mar. 2022].**
 
-**Microsoft (2021). Requirements for Visual Studio Code. \[online] code.visualstudio.com. Available at:** [**https://code.visualstudio.com/docs/supporting/requirements**](https://code.visualstudio.com/docs/supporting/requirements)****
+**Microsoft (2021). **_**Requirements for Visual Studio Code**_**. \[online] code.visualstudio.com. Available at:** [**https://code.visualstudio.com/docs/supporting/requirements**](https://code.visualstudio.com/docs/supporting/requirements)****
 
-#### **Cloud 66 (n.d.). Recommended minimum server sizes • Node. \[online] help.cloud66.com. Available at:** [**https://help.cloud66.com/node/references/non-recommended-server-sizes.html#:\~:text=We%20recommend%20the%20following%20minimum**](https://help.cloud66.com/node/references/non-recommended-server-sizes.html)
+#### **Cloud 66 (n.d.). **_**Recommended minimum server sizes • Node**_**. \[online] help.cloud66.com. Available at:** [**https://help.cloud66.com/node/references/non-recommended-server-sizes.html#:\~:text=We%20recommend%20the%20following%20minimum**](https://help.cloud66.com/node/references/non-recommended-server-sizes.html)
 
-‌
+#### **Google (2022). **_**Chrome browser system requirements**_**. \[online] support.google.com. Available at:** [**https://support.google.com/chrome/a/answer/7100626?hl=en**](https://support.google.com/chrome/a/answer/7100626?hl=en) **\[Accessed 26 May. 2022].**
 
-‌
-
-**‌**
-
-**‌**
-
-**‌**
-
-**‌**
-
-**‌**
+**Safari Montage (2022). **_**SM-Live! System Requirements.**_** \[online] safarimontage.com. Available at: ‌**[https://www.safarimontage.com/support/sml\_sysreqs.aspx](https://www.safarimontage.com/support/sml\_sysreqs.aspx) **\[Accessed 26 May. 2022].**
