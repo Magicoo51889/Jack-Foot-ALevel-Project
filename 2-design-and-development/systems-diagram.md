@@ -2,7 +2,7 @@
 
 ## Systems Diagram
 
-![](<../.gitbook/assets/System Diagram.jpg>)
+![System Diagram for Whole Game](https://files.gitbook.com/v0/b/gitbook-legacy-files/o/assets%2F-MT0DHUrBFpCudbKqQur%2F-MYnRKRq3mQTcGdHMmoy%2F-MYnaas2yhA1UpqAp7J2%2FSystem%20Diagram.jpg?alt=media\&token=4b103137-e9ac-4d52-bee3-66ce7ef4d2c8)
 
 This diagram shows the different parts of the game that I will focus on creating. I have split each section into smaller sub-sections. Throughout the development stage, I will pick one or two of these sections to focus on at a time to gradually build up and piece together the game. I have broken the project down this way as it roughly corresponds to the success criteria.
 
