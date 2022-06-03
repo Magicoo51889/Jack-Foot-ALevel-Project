@@ -210,4 +210,6 @@ Evidence for testing
 
 ### Evidence
 
+In this game I'm able to use the arrow keys to move around, and the sprite points in the direction of travel.&#x20;
+
 ![Map (to be changed) and sprite](<../.gitbook/assets/Screenshot 2022-04-25 at 12.02.42 (1).png>)
