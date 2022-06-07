@@ -202,14 +202,77 @@ Evidence for testing
 
 ### Tests
 
-| Test | Instructions     | What I expect                                                        | What actually happens                                                                   | Pass/Fail |
-| ---- | ---------------- | -------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------- |
-| 1    | Run code         | Page to load and be rendered to fit the screen                       | Page loads after compiling and all renders, whilst fitting to screen                    | Pass      |
-| 2    | Press arrow keys | Arrow keys allow basic movement of sprite on page                    | The arrow keys allow me to move the sprite, but would like to use WASD and for rotation | Pass      |
-| 3    | Press WASD keys  | WASD allows movement of the player in the same fashion to arrow keys | Nothing happens.                                                                        | Fail      |
+| Test | Instructions     | What I expect                                                         | What actually happens                                                                            | Pass/Fail |
+| ---- | ---------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | --------- |
+| 1    | Run code         | Page to load and be rendered to fit the screen.                       | Page loads after compiling and all renders, whilst fitting to screen.                            | Pass      |
+| 2    | Press arrow keys | Arrow keys allow basic movement of sprite on page.                    | Nothing happens.                                                                                 | Fail      |
+| 3    | Press WASD keys  | WASD allows movement of the player in the same fashion to arrow keys. | The WASD keys allow me to move the sprite, but would like to be able to use the arrow keys too.  | Pass      |
+
+I went back to my control.ts file and realised that I didn't implement the cursors variable to be able to enable the cursors, so I went back and fixed this in the cursors.ts file and the create() function in the PlayScene.ts file:
+
+{% tabs %}
+{% tab title="Cursors.ts" %}
+{% code title="cursors.ts" %}
+```typescript
+import { cursors } from "../../scenes/PlayScene";
+
+export default function createCursorKeys(keys, player){
+    if (keys.A.isDown || cursors.left.isDown) {
+        player.setVelocityX(-300);
+      } else if (keys.D.isDown || cursors.right.isDown) {
+        player.setVelocityX(300);
+      }
+    
+      if (keys.W.isDown || cursors.up.isDown) {
+        player.setVelocityY(-300);
+      } else if (keys.S.isDown || cursors.down.isDown) {
+        player.setVelocityY(300);
+      }
+}
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="PlayScene.ts" %}
+{% code title="PlayScene.ts" %}
+```typescript
+create() {
+		var tileset:Phaser.Tilemaps.Tileset = map.addTilesetImage('sky');
+		var layer:Phaser.Tilemaps.StaticTilemapLayer = map.createStaticLayer(0, tileset, 0, 0);*/
+
+		let map = this.physics.add.image(innerWidth/2, innerHeight/2, 'sky');
+		cursors = this.input.keyboard.createCursorKeys()
+
+		player = this.physics.add.sprite(100, 100, 'player');
+		keys = this.input.keyboard.addKeys('W,A,S,D');
+
+		player.setScale(0.25);
+		map.setScale(2);
+	}
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
 
 ### Evidence
 
 In this game I'm able to use the arrow keys to move around, and the sprite points in the direction of travel.&#x20;
 
-![Map (to be changed) and sprite](<../.gitbook/assets/Screenshot 2022-04-25 at 12.02.42 (1).png>)
+![Photo of the spacecraft in the sky](<../.gitbook/assets/Screenshot 2022-06-07 at 12.12.25.png>)
+
+{% file src="../.gitbook/assets/Screen Recording 2022-06-07 at 12.09.20.mov" %}
+Recording of the movement done by both the arrow keys and WASD
+{% endfile %}
+
+### Tests
+
+| Test | Instructions     | What I expect                                                         | What actually happens                                                                            | Pass/Fail |
+| ---- | ---------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | --------- |
+| 1    | Run code         | Page to load and be rendered to fit the screen.                       | Page loads after compiling and all renders, whilst fitting to screen.                            | Pass      |
+| 2    | Press arrow keys | Arrow keys allow basic movement of sprite on page.                    | The arrow keys allow for the movement of the player.                                             | Pass      |
+| 3    | Press WASD keys  | WASD allows movement of the player in the same fashion to arrow keys. | The WASD keys allow me to move the sprite, but would like to be able to use the arrow keys too.  | Pass      |
+
+### What next?
+
+* I'd like it so that the player doesn't self center back to 90 degrees right after the player's stopped pressing the arrow keys.&#x20;
+* Realisitc floating physics. The spacecraft wouldn't just stop dead in real life, it would carry on floating a bit after.&#x20;
