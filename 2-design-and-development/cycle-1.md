@@ -237,17 +237,17 @@ export default function createCursorKeys(keys, player){
 {% code title="PlayScene.ts" %}
 ```typescript
 create() {
-		var tileset:Phaser.Tilemaps.Tileset = map.addTilesetImage('sky');
-		var layer:Phaser.Tilemaps.StaticTilemapLayer = map.createStaticLayer(0, tileset, 0, 0);*/
+	var tileset:Phaser.Tilemaps.Tileset = map.addTilesetImage('sky');
+	var layer:Phaser.Tilemaps.StaticTilemapLayer = map.createStaticLayer(0, tileset, 0, 0);*/
 
-		let map = this.physics.add.image(innerWidth/2, innerHeight/2, 'sky');
-		cursors = this.input.keyboard.createCursorKeys()
+	let map = this.physics.add.image(innerWidth/2, innerHeight/2, 'sky');
+	cursors = this.input.keyboard.createCursorKeys()
 
-		player = this.physics.add.sprite(100, 100, 'player');
-		keys = this.input.keyboard.addKeys('W,A,S,D');
+	player = this.physics.add.sprite(100, 100, 'player');
+	keys = this.input.keyboard.addKeys('W,A,S,D');
 
-		player.setScale(0.25);
-		map.setScale(2);
+	player.setScale(0.25);
+	map.setScale(2);
 	}
 ```
 {% endcode %}
