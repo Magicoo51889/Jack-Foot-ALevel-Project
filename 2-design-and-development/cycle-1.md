@@ -21,7 +21,7 @@ In this cycle my aim was to create my basic HTML5 webpage using JavaScript. I th
 | update                      | This function is the function that updates each frame to update the position of the sprite.        |
 | W/A/S/D, up/left/down/right | These are the variable that store the key bindings for movement of the character.                  |
 | create                      | This function is called at the start of the game to initialise all the variables and sprites etc.  |
-| velocity                    | This is the speed at which the player starts to move in a direction when a key is pressed.         |
+| velocity(.X)(.Y)            | This is the speed at which the player starts to move in a direction when a key is pressed.         |
 
 ### Pseudocode
 
