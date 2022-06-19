@@ -157,14 +157,13 @@ export default function createCursorKeys(keys, player){
       } else if (keys.D.isDown) {
         player.setVelocityX(300);
       }
-    
+
       if (keys.W.isDown) {
         player.setVelocityY(-300);
       } else if (keys.S.isDown) {
         player.setVelocityY(300);
       }
 }
-
 ```
 {% endcode %}
 {% endtab %}
