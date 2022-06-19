@@ -109,29 +109,41 @@ export default class TestScene extends Phaser.Scene {
 {% tab title="Main.ts" %}
 {% code title="main.ts" %}
 ```typescript
-import Phaser from 'phaser';
+import 'phaser';
 
-import TestScene from './scenes/PlayScene';
+// game scenes
+import Planet_1 from './scenes/PlayScene';
 
 const config:GameConfig = {
     type: Phaser.AUTO,
     parent: 'content',
-    width: innerWidth,
-    height: innerHeight,
+    width: window.innerWidth, // the width and height is scaled to the window
+    height: window.innerHeight,
     resolution: 1, 
-    backgroundColor: "#EDEEC9",
+    backgroundColor: "#18216D", // this is a dark blue background
     physics: {
-      default: "arcade",
-      arcade: {
-        debug: false
-      }
+        default: 'matter',
+        matter: {
+            gravity: {
+                y: 0
+            },
+            debug: true // this shows bounding boxes around sprites and bodies
+        }
     },
     scene: [
-      TestScene
+      Planet_1
     ]
 };
 
-new Phaser.Game(config);
+export class Game extends Phaser.Game {
+    constructor(config: GameConfig) {
+        super(config);
+    }
+}
+window.onload = () => {
+    var game = new Game(config);
+};
+
 ```
 {% endcode %}
 {% endtab %}
