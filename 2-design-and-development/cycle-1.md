@@ -42,6 +42,8 @@ procedure update
         velocityY = -300
     else if keys.S is pressed
         velocityY = 300
+    else 
+        velocityY = 0
         
     player.rotation = player.angle + π / 2
 end procedure
