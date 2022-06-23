@@ -37,13 +37,6 @@ procedure update
         velocityX = -300
     else if keys.D is pressed
         velocityX = 300
-  
-    if keys.W is pressed 
-        velocityY = -300
-    else if keys.S is pressed
-        velocityY = 300
-    else 
-        velocityY = 0
         
     player.rotation = player.angle + π / 2
 end procedure
@@ -256,10 +249,6 @@ create() {
 In this game I'm able to use the arrow keys to move around, and the sprite points in the direction of travel.&#x20;
 
 ![Photo of the spacecraft in the sky](<../.gitbook/assets/Screenshot 2022-06-07 at 12.12.25.png>)
-
-{% file src="../.gitbook/assets/Screen Recording 2022-06-07 at 12.09.20.mov" %}
-Recording of the movement done by both the arrow keys and WASD
-{% endfile %}
 
 ### Tests
 
