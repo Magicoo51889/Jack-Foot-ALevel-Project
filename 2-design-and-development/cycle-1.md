@@ -271,5 +271,5 @@ Recording of the movement done by both the arrow keys and WASD
 
 ### What next?
 
-* I'd like it so that the player doesn't self center back to 90 degrees right after the player's stopped pressing the arrow keys.&#x20;
+* I'd like it so that the player moves more naturally when you let go of a key, as this will make the game feel more natural to play and more emersive.&#x20;
 * Realisitc floating physics. The spacecraft wouldn't just stop dead in real life, it would carry on floating a bit after.&#x20;
