@@ -61,47 +61,52 @@ The PlayScene.ts file is where the main portion of the game is and it is where t
 {% tab title="PlayScene.ts" %}
 {% code title="playScene.ts" %}
 ```typescript
-import Phaser from 'phaser';
-import createCursorKeys from '../components/controls/controls';
+class TestScene extends Phaser.Scene {
+ 	player: Phaser.GameObjects.Sprite;
+ 	cursors: any;
 
-var player;
-var keys;
+ 	constructor() {
+     super({
+ 	key: 'TestScene'
+         });
+     }
 
-export default class TestScene extends Phaser.Scene {
-	player: Phaser.GameObjects.Sprite;
+ 	preload() {
+ 		this.load.tilemapTiledJSON('map', '/assets/tilemaps/desert.json');
+ 		this.load.image('Desert', '/assets/tilemaps/tmw_desert_spacing.png');
+ 		this.load.image('player', '/assets/sprites/mushroom.png');
+ 	}
 
-	constructor() {
-    super({
-			key: 'TestScene'
-		});
-	}
+ 	create() {
+ 		var map:Phaser.Tilemaps.Tilemap = this.make.tilemap({ key: 'map' });
+ 		var tileset:Phaser.Tilemaps.Tileset = map.addTilesetImage('Desert');
+ 		var layer:Phaser.Tilemaps.StaticTilemapLayer = map.createStaticLayer(0, tileset, 0, 0);
 
-	preload() {
-		this.load.image('Desert', '/assets/tilemaps/tmw_desert_spacing.png');
-		this.load.image('player', '/assets/sprites/SpaceShip.png');
-		this.load.image('sky', '/assets/sprites/sky.png');
-	}
+ 		this.player = this.add.sprite(100, 100, 'player');
+ 		this.cursors = this.input.keyboard.createCursorKeys();
 
-	create() {
-		var tileset:Phaser.Tilemaps.Tileset = map.addTilesetImage('sky');
-		var layer:Phaser.Tilemaps.StaticTilemapLayer = map.createStaticLayer(0, tileset, 0, 0);*/
+ 		this.cameras.main.setBounds(0, 0, map.widthInPixels, map.heightInPixels);
+                this.cameras.main.startFollow(this.player, false);
+ 	}
 
-		let map = this.physics.add.image(innerWidth/2, innerHeight/2, 'sky');
+ 	update(time: number, delta:number) {
+ 		this.player.angle += 1;
+ 		if (this.cursors.left.isDown) {
+ 			this.player.x -= 5;
+ 		}
+ 		if (this.cursors.right.isDown) {
+ 			this.player.x += 5;
+ 		}
+ 		if (this.cursors.down.isDown) {
+ 			this.player.y += 5;
+ 		}
+ 		if (this.cursors.up.isDown) {
+ 			this.player.y -= 5;
+ 		}
+ 	}
+ }
 
-		player = this.physics.add.sprite(100, 100, 'player');
-		keys = this.input.keyboard.addKeys('W,A,S,D');
-
-		player.setScale(0.25);
-		map.setScale(2);
-	}
-
-	update() {
-		player.setVelocity(0);
-		createCursorKeys(keys, player);
-		player.rotation = player.body.angle + Math.PI / 2;
-	}
-}
-
+ export default TestScene; 
 ```
 {% endcode %}
 {% endtab %}
@@ -116,18 +121,18 @@ import Planet_1 from './scenes/PlayScene';
 
 const config:GameConfig = {
     type: Phaser.AUTO,
-    parent: 'content',
+    parent: 'game',
     width: window.innerWidth, // the width and height is scaled to the window
     height: window.innerHeight,
     resolution: 1, 
-    backgroundColor: "#18216D", // this is a dark blue background
+    backgroundColor: "#fcfff2", // this is a cream background
     physics: {
         default: 'matter',
         matter: {
             gravity: {
                 y: 0
             },
-            debug: true // this shows bounding boxes around sprites and bodies
+            debug: true // this shows bounding boxes around sprites and bodie
         }
     },
     scene: [
@@ -140,30 +145,9 @@ export class Game extends Phaser.Game {
         super(config);
     }
 }
-window.onload = () => {
-    var game = new Game(config);
-};
 
-```
-{% endcode %}
-{% endtab %}
+export const game = new Phaser.Game(config);
 
-{% tab title="Controls.ts" %}
-{% code title="controls.ts" %}
-```typescript
-export default function createCursorKeys(keys, player){
-    if (keys.A.isDown) {
-        player.setVelocityX(-300);
-      } else if (keys.D.isDown) {
-        player.setVelocityX(300);
-      }
-
-      if (keys.W.isDown) {
-        player.setVelocityY(-300);
-      } else if (keys.S.isDown) {
-        player.setVelocityY(300);
-      }
-}
 ```
 {% endcode %}
 {% endtab %}
@@ -177,7 +161,7 @@ export default function createCursorKeys(keys, player){
 <head>
     <meta charset="UTF-8">
     <title>Phaser3 - ES6 - Webpack</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta http-equiv="cleartype" content="on">
@@ -193,8 +177,8 @@ export default function createCursorKeys(keys, player){
 
 <body>
     <div id="content"></div>
-</body>
-
+<script type="text/javascript" src="./dist/vendor.bundle.js"></script><script type="text/javascript" src="./dist/bundle.js"></script></body>
+</html>
 ```
 {% endcode %}
 {% endtab %}
