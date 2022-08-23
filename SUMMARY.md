@@ -19,10 +19,8 @@
 * [2.2.1 Cycle 1](2-design-and-development/cycle-1.md)
 * [2.2.2 Cycle 2](design-and-development/2.2.2-cycle-2.md)
 * [2.2.3 Cycle 3](design-and-development/2.2.3-cycle-3.md)
-* [2.2.4 Cycle 4](design-and-development/2.2.5-cycle-5.md)
-* [2.2.5 Cycle 5](design-and-development/2.2.4-cycle-4.md)
-  * [2.2.5.5 Cycle 5.5](design-and-development/2.2.5-cycle-5/2.2.5.5-cycle-5.5.md)
-* [2.2.? Cycle ?](design-and-development/2.2.-cycle.md)
+* [2.2.4 Cycle 4](<design-and-development/2.2.5-cycle-5 (1).md>)
+* [2.2.5 Cycle 5](design-and-development/2.2.5-cycle-5.md)
 
 ## 3 Testing <a href="#testing" id="testing"></a>
 
