@@ -112,11 +112,16 @@ function update() {
 
   if (game.leftKey.isDown) {
     player.body.velocity.x = -200;
-    fireLaser();
   } else if (game.rightKey.isDown) {
     player.body.velocity.x = 200;
-    fireLaser();
   }
+  
+function playerMovement() {
+  if (game.time.now > 500) {
+    game.input.activePointer.isDown = false;
+    player.body.velocity.x = player.body.velocity.x * -1;
+  }
+}
 
 ```
 {% endcode %}
