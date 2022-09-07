@@ -4,7 +4,7 @@
 
 ### Objectives
 
-In this cycle my aim was to create my basic HTML5 webpage using JavaScript. I then went on to get a moving background loaded and for sprites to be loaded onto the page, and respond to player on the keyboard.
+In this cycle my aim was to create my basic HTML5 webpage using JavaScript.
 
 I used a boilerplate to be able to get the file structure I need, and this boilerplate also had webpack and ES6 preconfigured. Additonally it allows for the program to run on mobile devices easily using Apache Cordova, which natively runs apps on iOS and Android.
 
@@ -13,23 +13,18 @@ I used a boilerplate to be able to get the file structure I need, and this boile
 I opted to go with the older version of Phaser being Phaser 2 as the newer Phaser 3, as some people in the community have said that it can be difficult to find documentation and reliable sources of code for the newer version. This is mainly due to the newer version being out for much less time than the older version has been. The older version has also been dubbed as the community edition as it is open for the community to fix and patch the framework and is the recommended framework to use till Phaser 3 becomes adopted.
 
 * [x] Get website to load and work on localhost:3000
-* [x] Basic working controls
 * [x] Getting the page to fit the screen
-* [x] Get keyboard inputs to move the sprite
 
 ### Usability Features
 
 ### Key Variables
 
-| Variable Name          | Use                                                                                                |
-| ---------------------- | -------------------------------------------------------------------------------------------------- |
-| player                 | This is the variable that stores the properties of the spaceship sprite.                           |
-| update                 | This function is the function that updates each frame to update the position of the sprite.        |
-| leftKey                | This is the variable that detects when the left key is pressed.                                    |
-| rightKey               | This is the variable that detects when the right key is pressed.                                   |
-| create                 | This function is called at the start of the game to initialise all the variables and sprites etc.  |
-| player.body.velocity.x | This is the variable that holds the speed at which the player moves side to side.                  |
-| playerMovement         | This is a function that moves the player automatically if the player isn't pressing any keys.      |
+| Variable Name | Use                                                                                                |
+| ------------- | -------------------------------------------------------------------------------------------------- |
+| player        | This is the variable that stores the properties of the spaceship sprite.                           |
+| preload       | This is the function that loads all assets into the scene.                                         |
+| update        | This function is the function that updates each frame to update the position of the sprite.        |
+| create        | This function is called at the start of the game to initialise all the variables and sprites etc.  |
 
 ### Pseudocode
 
@@ -37,17 +32,6 @@ I opted to go with the older version of Phaser being Phaser 2 as the newer Phase
 procedure create
     load map
     load player
-    load keys
-end procedure
-
-procedure update
-    playerMovement
-    if leftKey is pressed
-        velocityX = -200
-    else if rightKey is pressed
-        velocityX = 200
-        
-    player.rotation = player.angle + π / 2
 end procedure
 ```
 
@@ -92,35 +76,14 @@ function create() {
   background.scale.x = 1;
   background.scale.y = 2;
  
-  // Set keys to keyboard input
-    game.leftKey = game.input.keyboard.addKey(Phaser.Keyboard.LEFT) && game.input.keyboard.addKey(Phaser.Keyboard.A);
-  game.rightKey = game.input.keyboard.addKey(Phaser.Keyboard.RIGHT) && game.input.keyboard.addKey(Phaser.Keyboard.D);
-
-  //set player to playerShip
-  //set player to game.add.sprite to enable body physics
+  // Set player to playerShip
+  // Set player to game.add.sprite to enable body physics
   player = game.add.sprite(game.canvas.width / 2, game.canvas.height - 100, 'playerShip');
   player.scale.set(0.9); // Scales the player's image smaller
   game.physics.arcade.enable(player, Phaser.Physics.ARCADE); // Set player physics
   player.anchor.set(0.5, 1); // Position player's anchor point to the middle of sprite
   player.x = game.input.x || game.world.width * 0.5; // Player starts in middle of screen
   player.body.velocity.x = 200; // Set default x velocity to 200
-  
-function update() {
-  if (game.input.activePointer.isDown) {
-    playerMovement();
-  }
-
-  if (game.leftKey.isDown) {
-    player.body.velocity.x = -200;
-  } else if (game.rightKey.isDown) {
-    player.body.velocity.x = 200;
-  }
-  
-function playerMovement() {
-  if (game.time.now > 500) {
-    game.input.activePointer.isDown = false;
-    player.body.velocity.x = player.body.velocity.x * -1;
-  }
 }
 
 ```
@@ -238,10 +201,8 @@ Using the package.json you are able to install all libraries and modules, by run
 
 ### Challenges
 
-Description of challenges
+As this was simply setting up Phaser and Webpack it wasn't particularly difficult as there's lots of tutorials on how to install both, and I used a boilerplate to make it even easier as it was all preconfigured and working before hand. My only issue was:
 
-* Getting the webpage to load after installing Phaser.js
-* Getting the controls to work and be detected
 * Adding the player to the screen
 
 ## Testing
@@ -256,17 +217,8 @@ Evidence for testing
 
 In this game I'm able to use the arrow keys to move around, and the sprite points in the direction of travel.&#x20;
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>The player ship in the game</p></figcaption></figure>
-
-### Tests
-
-| Test | Instructions     | What I expect                                                         | What actually happens                                                                            | Pass/Fail |
-| ---- | ---------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | --------- |
-| 1    | Run code         | Page to load and be rendered to fit the screen.                       | Page loads after compiling and all renders, whilst fitting to screen.                            | Pass      |
-| 2    | Press arrow keys | Arrow keys allow basic movement of sprite on page.                    | The arrow keys allow for the movement of the player.                                             | Pass      |
-| 3    | Press WASD keys  | WASD allows movement of the player in the same fashion to arrow keys. | The WASD keys allow me to move the sprite, but would like to be able to use the arrow keys too.  | Pass      |
+<figure><img src="../.gitbook/assets/image (3) (3).png" alt=""><figcaption><p>The player ship in the game</p></figcaption></figure>
 
 ### What next?
 
-* I'd like to add boundaries to the game so that player can't move off the side of the screen.
-* I'd also like to make sure the camera doesn't move.
+* I'd like to add the ability to control the player's ship
