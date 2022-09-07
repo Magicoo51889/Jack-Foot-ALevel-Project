@@ -17,16 +17,16 @@
 
 * [2.1 Design Frame](2-design-and-development/systems-diagram.md)
 * [\[Base Layout\]](design-and-development/base-layout.md)
-* [2.2.1 Cycle 1](2-design-and-development/cycle-1.md)
-* [2.2.2 Cycle 2](design-and-development/2.2.2-cycle-2.md)
-* [2.2.3 Cycle 3](<design-and-development/2.2.2-cycle-2 (1).md>)
-* [2.2.4 Cycle 4](design-and-development/2.2.3-cycle-3.md)
-* [2.2.5 Cycle 5](design-and-development/2.2.5-cycle-5.md)
-* [2.2.6 Cycle 6](design-and-development/2.2.4-cycle-4.md)
-* [2.2.7 Cycle 7](design-and-development/2.2.6-cycle-6.md)
-* [2.2.8 Cycle 8](design-and-development/2.2.7-cycle-7.md)
-* [2.2.9 Cycle 9](design-and-development/2.2.8-cycle-8.md)
-* [2.2.10 Cycle 10](design-and-development/2.2.9-cycle-9.md)
+* [2.2.1 Cycle 1 - Creating Game](2-design-and-development/cycle-1.md)
+* [2.2.2 Cycle 2 - Adding Controls](design-and-development/2.2.2-cycle-2-adding-controls.md)
+* [2.2.3 Cycle 3 - Screen Boundaries](design-and-development/2.2.3-cycle-3-screen-boundaries.md)
+* [2.2.4 Cycle 4 - Creating Enemies](design-and-development/2.2.4-cycle-4-creating-enemies.md)
+* [2.2.5 Cycle 5 - Adding Sound](design-and-development/2.2.5-cycle-5-adding-sound.md)
+* [2.2.6 Cycle 6 - Adding Lasers](design-and-development/2.2.6-cycle-6-adding-lasers.md)
+* [2.2.7 Cycle 7 - Add Boss Wave](design-and-development/2.2.7-cycle-7-add-boss-wave.md)
+* [2.2.8 Cycle 8 - Add Health Pickups](design-and-development/2.2.8-cycle-8-add-health-pickups.md)
+* [2.2.9 Cycle 9 - Add Pause Menu](design-and-development/2.2.9-cycle-9-add-pause-menu.md)
+* [2.2.10 Cycle 10 - Add Score Count](design-and-development/2.2.10-cycle-10-add-score-count.md)
 
 ## 3 Testing <a href="#testing" id="testing"></a>
 
