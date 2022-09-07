@@ -22,7 +22,7 @@
 * [2.2.3 Cycle 3 - Screen Boundaries](design-and-development/2.2.3-cycle-3-screen-boundaries.md)
 * [2.2.4 Cycle 4 - Creating Enemies](design-and-development/2.2.4-cycle-4-creating-enemies.md)
 * [2.2.5 Cycle 5 - Adding Sound](design-and-development/2.2.5-cycle-5-adding-sound.md)
-* [2.2.6 Cycle 6 - Adding Lasers and Animations](design-and-development/2.2.6-cycle-6-adding-lasers-and-animations.md)
+* [2.2.6 Cycle 6 - Adding Lasers and Animations](design-and-development/2.2.6-cycle-6-adding-lasers.md)
 * [2.2.7 Cycle 7 - Add Boss Wave](design-and-development/2.2.7-cycle-7-add-boss-wave.md)
 * [2.2.8 Cycle 8 - Add Health Pickups](design-and-development/2.2.8-cycle-8-add-health-pickups.md)
 * [2.2.9 Cycle 9 - Add Counters](design-and-development/2.2.10-cycle-10-add-score-count.md)
