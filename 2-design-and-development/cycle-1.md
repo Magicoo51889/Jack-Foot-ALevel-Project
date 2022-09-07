@@ -217,7 +217,7 @@ Evidence for testing
 
 In this game I'm able to use the arrow keys to move around, and the sprite points in the direction of travel.&#x20;
 
-<figure><img src="../.gitbook/assets/image (3) (3).png" alt=""><figcaption><p>The player ship in the game</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>The player ship in the game</p></figcaption></figure>
 
 ### What next?
 
