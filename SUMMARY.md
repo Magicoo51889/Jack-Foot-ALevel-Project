@@ -26,7 +26,7 @@
 * [2.2.7 Cycle 7 - Add Boss Wave](design-and-development/2.2.7-cycle-7-add-boss-wave.md)
 * [2.2.8 Cycle 8 - Add Health Pickups](design-and-development/2.2.8-cycle-8-add-health-pickups.md)
 * [2.2.9 Cycle 9 - Add Pause Menu](design-and-development/2.2.9-cycle-9-add-pause-menu.md)
-* [2.2.10 Cycle 10 - Add Score Count](design-and-development/2.2.10-cycle-10-add-score-count.md)
+* [2.2.10 Cycle 10 - Add Counters](design-and-development/2.2.10-cycle-10-add-counters.md)
 
 ## 3 Testing <a href="#testing" id="testing"></a>
 
