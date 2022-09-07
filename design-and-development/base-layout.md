@@ -39,9 +39,6 @@ Evidence for testing
 
 ### Tests
 
-| Test | Instructions  | What I expect     | What actually happens | Pass/Fail |
-| ---- | ------------- | ----------------- | --------------------- | --------- |
-| 1    | Run code      | Thing happens     | As expected           | Pass      |
-| 2    | Press buttons | Something happens | As expected           | Pass      |
+<table><thead><tr><th>Test</th><th>Instructions</th><th>What I expect</th><th>What actually happens</th><th data-type="select">Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>Thing happens</td><td>As expected</td><td></td></tr><tr><td>2</td><td>Press buttons</td><td>Something happens</td><td>As expected</td><td></td></tr></tbody></table>
 
 ### Evidence
