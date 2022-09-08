@@ -27,6 +27,7 @@
 * [2.2.8 Cycle 8 - Add Health Pickups](design-and-development/2.2.8-cycle-8-add-health-pickups.md)
 * [2.2.9 Cycle 9 - Add Counters](design-and-development/2.2.10-cycle-10-add-score-count.md)
 * [2.2.10 Cycle 10 - Add Pause Menu](design-and-development/2.2.9-cycle-9-add-pause-menu.md)
+* [2.2.11 Cycle 11 - Add Game Over and Restart](design-and-development/2.2.11-cycle-11-add-game-over-and-restart.md)
 
 ## 3 Testing <a href="#testing" id="testing"></a>
 
