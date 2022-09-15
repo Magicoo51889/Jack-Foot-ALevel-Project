@@ -6,9 +6,9 @@
 
 In this cycle my aim was to create my basic HTML5 webpage using JavaScript.
 
-I used a boilerplate to be able to get the file structure I need, and this boilerplate also had webpack and ES6 preconfigured. Additonally it allows for the program to run on mobile devices easily using Apache Cordova, which natively runs apps on iOS and Android.
+I used a boilerplate to be able to get the file structure I need, and this boilerplate also had webpack and ES6 preconfigured. Additonally it allows for the program to run on mobile devices easily using Apache Cordova, which natively runs apps on iOS and Android, though I am unsure if I will be implementing mobile support at this point in my development.
 
-&#x20;I then installed Phaser.js which is the game engine library that I will be using, which provides a physics engine and it also is efficient at drawing and receiving inputs from the user using functions.
+I then installed Phaser.js which is the game engine library that I will be using, which provides a physics engine and it also is efficient at drawing and receiving inputs from the user using functions.
 
 I opted to go with the older version of Phaser being Phaser 2 as the newer Phaser 3, as some people in the community have said that it can be difficult to find documentation and reliable sources of code for the newer version. This is mainly due to the newer version being out for much less time than the older version has been. The older version has also been dubbed as the community edition as it is open for the community to fix and patch the framework and is the recommended framework to use till Phaser 3 becomes adopted.
 
