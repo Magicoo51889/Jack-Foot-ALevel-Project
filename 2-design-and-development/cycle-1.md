@@ -29,9 +29,22 @@ I opted to go with the older version of Phaser being Phaser 2 as the newer Phase
 ### Pseudocode
 
 ```
-procedure create
+health = 200
+procedure preload
     load map
     load player
+end procedure
+
+procedure create
+    start physics
+    map = game.width, game.height, 'map'
+    map x scale to 1
+    map y scale to 2
+    
+    player = game.width / 2, game.height / 2, 'player ship'
+    player.x = game.width / 2, game.height - 100
+    set player scale to 0.9
+    set player velocity to 200
 end procedure
 ```
 
