@@ -7,4 +7,6 @@
 
 ### Gameplay
 - The gameplay will be similar to space invaders, where you fly along different planet's surfaces to be able to kill different enemies, in waves.
-- You will also be able to explore 5 different planets, with different enemies and difficulties.
+- The game is based off of a high score and endless gameplay, so there are no levels. 
+
+**The code for this project can be found [here.](https://github.com/Magicoo51889/Phaser-Game) The game will not be updated on this repository, and instead any releases will be done through the repository on my personal profile.**
