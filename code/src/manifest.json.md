@@ -1,0 +1,13 @@
+# manifest.json
+
+```json
+{
+    "short_name": "PhaserGame",
+    "name": "Phaser_ALevel_Game",
+    "start_url": "index.html",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "background_color": "#000000",
+    "description": "My A-Level Computer Science Project, made using Phaser 2/CE, and webpack. Designed to be a twist on the classic space invaders game!"
+  }
+```
