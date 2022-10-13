@@ -43,7 +43,7 @@
 
 ## Code
 
-* [Project Directory](code/project-directory.md)
+* [⤵ Project Directory](code/project-directory.md)
 * [📂 src](code/src/README.md)
   * [📂 sprites](code/src/sprites/README.md)
     * [📂 images](code/src/sprites/images.md)
@@ -62,6 +62,7 @@
 * [index.html](code/index.html.md)
 * [.gitignore](code/.gitignore.md)
 * [config.xml](code/config.xml.md)
+* [README.md](code/readme.md.md)
 * [webpack.config.js](code/webpack.config.js.md)
 * [webpack.cordova.config.js](code/webpack.cordova.config.js.md)
 * [webpack.production.config.js](code/webpack.production.config.js.md)
